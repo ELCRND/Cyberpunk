@@ -1,0 +1,17 @@
+{
+  "name": "cyberpunk",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "cssbuild":"npx tailwindcss -i ./input.css -o ./css/style.css --watch",
+    "build": "vite build",
+    "preview": "vite preview"
+
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.1.0"
+  }
+}

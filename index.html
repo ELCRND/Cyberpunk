@@ -2,154 +2,226 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="stylesheet" href="./css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Cyberpunk 2077</title>
   </head>
-  <body class="h-screen">
-    <main >
+  <body class="text-[16px]">
+    <main class="w-auto">
 
-      <div class="h-[1000px] bg-cover bg-no-repeat animate-heroSlider" >
-        <div class="max-w-screen-xl h-full mx-auto pt-[20px] grid grid-rows-[74px_auto] grid-cols-[656px_624px] items-center">
-          <header class="h-full  flex justify-between items-center col-start-1 col-end-3 ">
+<!-- Hero-Slider -->
+      <div class="h-screen bg-[url('../assets/hero_bg_1_mobile.jpeg')] lg:bg-[url('../assets/hero_bg_1.jpeg')] bg-cover bg-no-repeat animate-heroSliderMobile lg:animate-heroSlider" >
+        <div class="max-w-screen-xl h-full mx-auto pt-5 grid grid-rows-[4.625rem_auto] grid-cols-[1fr_1fr] items-center">
+          
+          <header class="h-full flex justify-between items-center col-start-1 col-end-3 ">
             <img src="./assets/hero_logo.png" alt="hero logo"></img>
-            <section class="w-[380px] ">
+            <section class="w-[23.75rem] ">
               <ul class="flex justify-between">
                 <li>
-                  <a href="№" >
+                  <a href="#">
                     <img src="assets/YouTube_logo.svg" alt="YouTube logo">
                   </a>
                 </li>
+
                 <li>
-                  <a href="№">
+                  <a href="#">
                     <img src="assets/VK_logo.svg" alt="VK logo">
                   </a>
                 </li>
+
                 <li>
-                  <a href="№">
+                  <a href="#">
                     <img src="assets/Facebook_logo.svg" alt="Facebook logo">
                   </a>
                 </li>
+
                 <li>
-                  <a href="№">
+                  <a href="#">
                     <img src="assets/Twitter_logo.svg" alt="Twitter logo">
                   </a>
                 </li>
+
                 <li>
-                  <a href="№">
+                  <a href="#">
                     <img src="assets/Twitch_logo.svg" alt="Twitch logo">
                   </a>
                 </li>
+
                 <li>
-                  <a href="№">
+                  <a href="#">
                     <img src="assets/Instagram_logo.svg" alt="Instargram logo">
                   </a>
                 </li>
               </ul>
             </section>
           </header>
-            <section class="h-[369px] p-[70px_70px_17px_70px] [clip-path:polygon(10%_0,100%_0,100%_83%,90%_100%,0_100%,0_17%)] bg-[#F8F200] relative w-[624px]  row-end-3 col-end-3 self-end ">
-              <h1 class="leading-[63px] text-[62px] mb-[17px]">Доступно на всех платформах</h1>
-              <button class="leading-[40px] p-[19px_50px] bg-[#000] text-[24px] text-[#F8F200]">Узнать больше</button>
+
+          <section class="max-w-[39rem] lg:h-[23.125rem] lg:p-[4.375rem_4.375rem_1rem_4.375rem] [clip-path:polygon(10%_0,100%_0,100%_83%,90%_100%,0_100%,0_17%)] bg-regular-yellow relative row-end-3 col-end-3 self-end ">
+              <h1 class="text-title mb-[1rem]">Доступно на всех платформах</h1>
+              <button class="p-[1.25rem_3.125rem] text-2xl bg-black  text-regular-yellow">Узнать больше</button>
           </section>
+
         </div>
       </div>
-    
-      <article class="max-w-screen-xl mx-auto py-[70px] bg-[#fff] after:content-[''] after:absolute after:left-0 after:w-full after:h-[70px] after:bg-[url('../assets/promotion_before.svg')]">
-        <h1 class="h-[94px] text-[62px] leading-[63px]">Найт-Сити изменит тебя навсегда!</h1>
-        <p class="w-[952] h-[125] text-[18px] leading-[34px]"><strong class="text-[#52BEDC]">Cyberpunk 2077 </strong> — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках устройства, позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.</p>
-        <section class="grid grid-rows-[196px_196px] grid-cols-[460px_788px] gap-[32px] mb-[70px] pt-[70px]" >
-          <img src="./assets/screenshot_1.jpeg" alt="screenshot" class="w-[460px] h-[196px]">
-          <img src="./assets/screenshot_2.jpeg" alt="screenshot" class="w-[460px] h-[196px]">
-          <img src="./assets/screenshot_3.jpeg" alt="screenshot" class="w-[788px] h-[424px] col-end-3 row-end-2">
-        </section>
-      </article>
 
-      <div class="h-[814px] bg-[#000] pb-[70px] after:content-[''] after:absolute after:left-0 after:w-full after:h-[70px] after:bg-[url('../assets/promotion_after.svg')] ">
-        <article class="max-w-screen-xl h-full mx-auto text-[#fff]">
-          <section class="">
-          <h1 class="h-[149px] mb-[25px] pl-[164px] pt-[52px] text-[62px] leading-[63px] bg-[url('../assets/promotion_logo.svg')] bg-no-repeat">Играй и выигрывай!</h1>
-          <p>Играй в <strong class="text-[#52BEDC]">Cyberpunk 2077</strong> и получи возможность выиграть консоль <strong class="text-[#52BEDC]">Xbox Series X</strong> или <strong class="text-[#52BEDC]">Sony PlayStation 5!</strong> Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)</p>
+<!-- Preview -->
+      <div class=" bg-white">
+        <article class="max-w-screen-xl mx-auto py-y after:content-[''] after:absolute after:left-0 after:w-full after:h-[4.375rem] after:bg-[url('../assets/promotion_before.svg')]">
+          <h1 class="mb-8 text-title">Найт-Сити изменит тебя навсегда!</h1>
+          
+          <p class="h-[7.75rem] text-regular text-regular-gray">
+            <strong class="text-blue">Cyberpunk 2077 </strong> 
+            <span>
+              — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, 
+              где власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, 
+              наёмника в поисках устройства, позволяющего обрести бессмертие. 
+              Ты сможешь менять киберимпланты, навыки и стиль игры своего персонажа, 
+              исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.
+            </span>
+          </p>
+
+          <section class="lg:grid grid-rows-[12.25rem_12.25rem] grid-cols-[28.75rem_49.25] gap-2 my-[4.375rem]" >
+            <img src="./assets/screenshot_1.jpeg" alt="screenshot" class="w-[28.75rem] h-[12.25rem]">
+            <img src="./assets/screenshot_2.jpeg" alt="screenshot" class="w-[28.75rem] h-[12.25rem]">
+            <img src="./assets/screenshot_3.jpeg" alt="screenshot" class="w-[49.25rem] h-[26.5rem] col-end-3 row-end-2">
           </section>
-          <section class="grid grid-cols-[460px_788px] gap-[32px] items-center">
-          <form action="" class="h-[383px] flex flex-col gap-[35px] ">
-            <input type="text" placeholder="Как тебя зовут?" class="py-[14px] bg-transparent border-b border-[#777777] text-[18px]">
-            <input type="email" placeholder="Твой е-mail" class="py-[14px] bg-transparent border-b border-[#777777] text-[18px]">
-            <label for="files" class="flex flex-col items-center border-dashed border p-[39px_137px]">
-              <span>Прикрепить скриншот</span>
-              <span>.png / .jpg / .pdf</span>
-            </label>
-            <input type="file" id="files" class="hidden">
-            <input type="submit" value="Отправить" class="w-[192px] py-[20px] leading-[20px] bg-[#F8F200] text=[18px] text-bold text-[#000]">
-            <label for="agree" class="flex gap-[10px] relative bottom-[20px] text-[12px]">
-              <input type="checkbox" id="agree" class="accent-[#F8F200]">
-              <span>Согласен на обработку персональных данных</span>
-            </label>
-          </form>
-          <div class="h-[456px] flex justify-end p-[24px_0_81px_164px] bg-[url('../assets/prizes_bg.png')]">
-            <img src="./assets/xbox.png" alt="xbox" class="">
-            <img src="./assets/Playstation-5.png" alt="playstation" class="">
-          </div>
-          </section>
+
         </article>
       </div>
 
-      <div class="h-[676px] bg-[#F8F200] py-[70px]">
-        <article class="max-w-screen-xl h-full mx-auto grid grid-cols-[624px_624px] gap-[32px] text=[#000]">
-        <section class="grid grid-rows-[430px_80px] gap-[26px] items-center">
-          <img src="assets/monitor.png" alt="monitor" class="col-start-1 col-end-4">
-          <img src="assets/hp_logo.svg" alt="hp logo" class="row-end-3">
-          <img src="assets/X.svg" alt="X" class="row-end-3">
-          <img src="assets/hero_logo.png" alt="cyberpunk logo" class="row-end-3">
-        </section>
-        <section class="flex flex-col gap-[25px]">
-          <h1 class="leading-[63px] text-[62px]">Полное погружение вместе с HP</h1>
-          <p class="leading-[34px] text-[18px]">Погрузись в современные экшен-игры с реалистичным изображением с помощью монитора с диагональю 23,8 дюйма, созданном для отображения максимально насыщенных цветов. Успевай реагировать на любые события с временем отклика 1 мс и частотой в 144 Гц!</p>
-          <ul class="flex flex-col gap-[26px] leading-[21px] text-[18px]">
-            <li class="bg-[url('../assets/palitra.svg')] bg-no-repeat bg-contain pl-[38px]"><span>Яркие насыщенные цвета</span></li>
-            <li class="bg-[url('../assets/stars.svg')] bg-no-repeat bg-contain pl-[38px]"><span>Кристальная четкость изображения</span></li>
-            <li class="bg-[url('../assets/windows.svg')] bg-no-repeat bg-contain pl-[38px] mb-[19px]"><span>Быстрые движения и плавный геймплей</span></li>
-          </ul>
-          <button class="w-[194px] leading-[20px] py-[20px] text-[18px] text-[#F8F200] bg-[#000] ">Подробнее</button>
-        </section>
+<!-- Prizes -->
+      <div class="py-y bg-black relative after:content-[''] after:absolute after:left-0 after:bottom-[-70px] after:w-full after:h-[4.375rem] after:bg-[url('../assets/promotion_after.png')]">
+        <article class="max-w-screen-xl mx-auto flex flex-col text-white lg:block"> 
+          <h1 class="pl-[164px] pt-[4.375rem] relative bottom-16 text-title bg-[url('../assets/promotion_logo.svg')] bg-no-repeat bg-contain">Играй и выигрывай!</h1>
+          
+          <p class=" mb-6 text-regular text-regular-gray">
+            <span>Играй в</span>
+            <strong class="text-blue">Cyberpunk 2077</strong>
+            <span>и получи возможность выиграть консоль</span>
+            <strong class="text-blue">Xbox Series X</strong> 
+            <span>или</span>
+            <strong class="text-blue">Sony PlayStation 5!</strong>
+            <span>Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)</span>
+          </p>
+
+          <section class="grid grid-rows-[100px_500px] grid-cols-[37%_auto] gap-8 ">
+            <form action="" class="flex flex-col gap-[2.25rem] lg:row-end-3">
+              <input type="text" placeholder="Как тебя зовут?" class="text-regular bg-transparent border-b border-[#777777] ">
+              <input type="email" placeholder="Твой е-mail" class="text-regular bg-transparent border-b border-[#777777] ">
+
+              <label for="files" class="flex flex-col items-center border-dashed border lg:p-[2.5rem_8.5rem] cursor-pointer">
+                <span>Прикрепить скриншот</span>
+                <span>.png / .jpg / .pdf</span>
+              </label>
+
+              <input type="file" id="files" class="hidden">
+              <input type="submit" value="Отправить" class="w-48 py-4 text-xl font-bold text-black bg-regular-yellow cursor-pointer">
+
+              <label for="agree" class="flex gap-2.5 relative bottom-5 text-[0.75rem]">
+                <input type="checkbox" id="agree" class="accent-regular-yellow">
+                <span class="cursor-pointer">Согласен на обработку персональных данных</span>
+              </label>
+            </form>
+
+            <div class="lg:row-start-1 lg:row-end-3">             
+                <img src="./assets/X_PS.png" alt="playstation and xbox">   
+            </div>
+          </section>
+
         </article>
       </div>
 
-      <div class="h-[703px] bg-[#000]  grid grid-cols-[924px_624px] gap-[32px]">
-        <img src="assets/cd_disks.jpeg" alt="CD disks" class="">       
-          <article class="text-[#fff] pt-[70px]">
-            <h1 class="leading-[63px] text-[62px] ">Купить игру Cyberpunk 2077</h1>
-            <ul class="flex flex-col gap-[20px] my-[40px]">
-              <span class="leading-[28px] text-[24px] text-[#52BEDC]">В комплект входит:</span>
-              <li class="bg-[url('..assets/cd_disk')] pl-[13]px">Футляр с игровыми дисками</li>
-              <li class="bg-[url('..assets/list_icon')] pl-[13]px">Футляр с кодом для загрузки игры и дисками (pc)</li>
-              <li class="bg-[url('..assets/img_icon')] pl-[13]px">Справочник с информацией об игровом мире</li>
+<!-- Promo -->
+      <div class="mt-[70px] bg-regular-yellow py-y">
+        <article class="max-w-screen-xl mx-auto flex flex-col lg:grid grid-cols-[1fr_1fr] gap-8">
+        
+          <section class="grid grid-rows-[26.875rem_5rem] gap-6 items-center">
+            <img src="assets/monitor.png" alt="monitor" class="col-start-1 col-end-4 row-end-2">
+            <img src="assets/hp_logo.svg" alt="hp logo" >
+            <img src="assets/X.svg" alt="X" >
+            <img src="assets/hero_logo.png" alt="cyberpunk logo" >
+          </section>
+
+          <section class="flex flex-col gap-6">
+            <h1 class="text-6xl">Полное погружение вместе с HP</h1>
+            <p class="text-regular">Погрузись в современные экшен-игры с реалистичным изображением с помощью монитора с диагональю 23,8 дюйма, созданном для отображения максимально насыщенных цветов. Успевай реагировать на любые события с временем отклика 1 мс и частотой в 144 Гц!</p>     
+            <ul class="flex flex-col gap-6 text-regular ">
+              <li class="bg-[url('../assets/palitra.svg')] bg-no-repeat bg-contain pl-[2.375rem]"><span>Яркие насыщенные цвета</span></li>
+              <li class="bg-[url('../assets/stars.svg')] bg-no-repeat bg-contain pl-[2.375rem]"><span>Кристальная четкость изображения</span></li>
+              <li class="bg-[url('../assets/windows.svg')] bg-no-repeat bg-contain pl-[2.375rem] mb-[1.125rem]"><span>Быстрые движения и плавный геймплей</span></li>
             </ul>
-            <ul class="grid grid-rows-[28px_25px_35px_56px_35px] grid-cols-[57px_82px_178px] items-center"> 
-              <span class="row-end-2 col-start-1 col-end-4 leading-[28px] text-[24px] text-[#52BEDC]">Выберите платформу:</span>         
-              <li class="row-end-4 col-end-2"><img src="./assets/PC_logo.svg" alt="PC logo"></li>
-              <li class="row-end-4 col-end-4"><img src="./assets/xbox_logo.png" alt="XBOX logo"></li>
-              <li class="row-end-6 col-end-2"><img src="./assets/stadia_logo.png" alt="Stadia logo"></li>
-              <li class="row-end-6 col-end-4"><img src="./assets/PS4_logo.png" alt="PS4 logo"></li>
+            <button class="w-[12.125rem] py-[1.25rem] text-regular text-regular-yellow bg-black ">Подробнее</button>
+          </section>
+
+        </article>
+      </div>
+
+<!-- Checkout -->
+      <div class="flex flex-col lg:grid grid-cols-[1fr_1fr] gap-8 bg-black">
+        <img src="assets/cd.jpeg" alt="CD disks" class="w-full">       
+          <article class="text-white pt-[4.375rem] col-end-3 ">
+            <h1 class="text-title">Купить игру Cyberpunk 2077</h1>
+
+            <ul class="flex flex-col gap-[1.25rem] my-[8rem] text-regular">
+              <span class="text-3xl text-blue">В комплект входит:</span>
+              <li class="bg-[url('../assets/cd_icon.svg')] bg-no-repeat bg-contain pl-[3rem]">Футляр с игровыми дисками</li>
+              <li class="bg-[url('../assets/list_icon.svg')] bg-no-repeat bg-contain pl-[3rem]">Футляр с кодом для загрузки игры и дисками (pc)</li>
+              <li class="bg-[url('../assets/img_icon.svg')] bg-no-repeat bg-contain pl-[3rem]">Справочник с информацией об игровом мире</li>
             </ul>
+
+            <ul class="grid grid-rows-[1.75rem_1.5rem_2.25rem_3.5rem_2.25rem] grid-cols-[3.5rem_5.125rem_11.125rem] items-center mb-5"> 
+              <span class="row-end-2 col-start-1 col-end-4 text-3xl text-blue">Выберите платформу:</span>      
+
+              <li class="row-end-4 col-end-2">
+                <a href="#">
+                  <img src="./assets/PC_logo.png" alt="PC logo" class="hover:scale-110">
+                </a>
+              </li>
+
+              <li class="row-end-4 col-end-4">
+                <a href="#">
+                  <img src="./assets/xbox_logo.png" alt="XBOX logo" class="hover:scale-110">
+                </a>
+              </li>
+
+              <li class="row-end-6 col-end-2">
+                <a href="#">
+                  <img src="./assets/stadia_logo.png" alt="Stadia logo" class="hover:scale-110">
+                </a>
+              </li>
+
+              <li class="row-end-6 col-end-4 ">
+                <a href="#">
+                  <img src="./assets/PS4_logo.png" alt="PS4 logo" class="hover:scale-110">
+                </a>
+              </li>
+
+            </ul>           
           </article>
       </div>
     </main>
-    <footer class="w-full h-[140px] flex flex-col">
-      <div class="w-[1280px] h-[100px] mx-auto flex justify-between items-center">
-        <section class="flex gap-[32px]">
+
+    <footer class="h-[8.75rem] flex flex-col">
+      <div class="w-full h-[6.25rem] mx-auto flex justify-around items-center">
+
+        <section class="flex gap-8">
           <img src="./assets/hero_logo.png" alt="Cyberpunk logo">
-          <img src="./assets/CD_Project_Red.svg" alt="CD Project Red logo">
+          <img src="./assets/CD_Project_Red.png" alt="CD Project Red logo">
         </section>
-        <section class="flex gap-[32px]">
-          <span>Лицензия</span>
-          <span>Политика конфиденциальности</span>
+
+        <section class="flex gap-8">
+          <a href="#">Лицензия</a>
+          <a href="#">Политика конфиденциальности</a>
         </section>
+
       </div>
-      <div class="w-full h-[40px] mx-auto flex justify-center items-center bg-[#000] text-[#fff]">
+
+      <div class="w-full h-[2.5rem] mx-auto flex justify-center items-center bg-[#000] text-[#fff]">
         <span>CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</span>
       </div>
-    </footer>
+    </footer> 
+
   </body>
 </html>
